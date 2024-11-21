@@ -1,0 +1,31 @@
+.tech-icons {
+  position: relative;
+  text-align: center;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  bottom: -20px; /* Adjust to position below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Background for tooltip */
+  color: #fff; /* Tooltip text color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.icon-wrapper:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}

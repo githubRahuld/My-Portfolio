@@ -505,8 +505,8 @@ button:focus {
 }
 
 .card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
+  padding: 4px !important;
+  opacity: 1 !important;
   border-radius: 10px !important;
 }
 

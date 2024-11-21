@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/homeLogo.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Projects from "../Projects/Projects";
+import ResumeNew from "../Resume/ResumeNew";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -22,7 +25,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> RAHUL DHAKAD</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -41,7 +44,18 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <div>
+        <Home2 />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="resume">
+        <ResumeNew />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </section>
   );
 }
