@@ -7,6 +7,7 @@ import Type from "./Type";
 import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
 import Contact from "../Contact/Contact";
+import About from "../About/About";
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
       </Container>
       <div>
         <Home2 />
+        <About />
       </div>
       <div id="projects">
         <Projects />
