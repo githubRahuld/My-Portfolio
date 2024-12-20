@@ -8,6 +8,8 @@ import MealRecipe from "../../Assets/Projects/MealRecipes.png";
 import Timeline from "../../Assets/Projects/TimelineTable.png";
 import WebBlog from "../../Assets/Projects/Web-Blog.png";
 import WeddingSparks from "../../Assets/Projects/weddingSparks.png";
+import TheDailyScroll from "../../Assets/Projects/TheDailyScroll.png";
+import TrendyCart from "../../Assets/Projects/TrendyCart.png";
 
 function Projects() {
   return (
@@ -21,6 +23,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TrendyCart}
+              isBlog={false}
+              title="Trendy Cart"
+              description="TrendyCart is an innovative e-commerce platform offering a seamless shopping experience for fashion-forward individuals. With a curated collection of stylish products, secure transactions, and user-friendly features, TrendyCart makes online shopping effortless and enjoyable. Stay ahead of the trends and shop your favorites with ease."
+              ghLink="https://github.com/githubRahuld/TrendyCart"
+              demoLink="https://trendy-cart-murex.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TheDailyScroll}
+              isBlog={false}
+              title="The Daily Scroll"
+              description="The Daily Scroll is a modern blogging platform designed for sharing thoughts, ideas, and stories. It combines a sleek user interface with dynamic features, enabling users to explore diverse content and engage with a vibrant community. Whether you're here to read, write, or connect, The Daily Scroll is your space to stay inspired and informed."
+              ghLink="https://github.com/githubRahuld/The-Dailly-Scroll"
+              demoLink="https://the-dailly-scroll.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crazzzyTube}
